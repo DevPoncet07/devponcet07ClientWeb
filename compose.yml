@@ -1,0 +1,17 @@
+
+services:
+  devponcet07clientweb:
+    build: 
+      context: devponcet07_client_web
+    container_name: devponcet07ClientWeb
+    restart: always
+    environment:
+      - NODE_ENV=development
+    networks:
+      - proxy-network
+    expose:
+      - "3000"
+
+networks:
+  proxy-network:
+    external: true
