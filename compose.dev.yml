@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  devponcet07clientweb:
+    build:
+      context: ./devponcet07_client_web
+      dockerfile: dockerfile.dev
+    working_dir: /app
+    container_name: devponcet07ClientWebDev
+    restart: always
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./devponcet07_client_web:/app
+      - /app/node_modules
+    command: npm run dev
