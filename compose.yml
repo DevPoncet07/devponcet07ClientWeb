@@ -14,9 +14,6 @@ services:
       - proxy-network
     expose:
       - "3000"
-    volumes:
-      - ./devponcet07_client_web:/app
-      - /app/node_modules
 
 networks:
   proxy-network:
