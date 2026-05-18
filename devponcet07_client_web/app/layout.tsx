@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/components/provider/themeProvider";
 import "./globals.css";
 
 
@@ -9,7 +10,8 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body >{children}</body>
+      <body >
+        <ThemeProvider>{children}</ThemeProvider></body>
     </html>
   );
 }
