@@ -47,38 +47,16 @@ table {
 /* My css*/
 
 :root {
-  --background: #ffffff;
-  --font-color: #171717;
+  --bg: white;
+  --text: black;
 }
 
-html:not([data-theme]) {
-  --background: #ffffff;
-  --font-color: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme]) {
-    --background: #0f172a;
-    --font-color: #ffffff;
-  }
-}
-
-[data-theme="light"] {
-  --background: #ffffff;
-  --font-color: #171717;
-}
-
-[data-theme="dark"] {
-  --background: #0f172a;
-  --font-color: #ffffff;
+.dark {
+  --bg: #0b0b0b;
+  --text: #ffffff;
 }
 
 body {
-  background: var(--background);
-  color: var(--font-color);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  color: var(--font-color);
+  background: var(--bg);
+  color: var(--text);
 }
