@@ -4,6 +4,7 @@ import styles from "./ButtonTheme.module.css"
 
 export default function ButtonTheme() {
   const [isDark, setIsDark] = useState(false)
+  console.log("test")
 
   useEffect(() => {
     console.log(isDark)

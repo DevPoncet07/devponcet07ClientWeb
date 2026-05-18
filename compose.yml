@@ -7,7 +7,7 @@ services:
     container_name: devponcet07ClientWeb
     restart: always
     environment:
-      - NODE_ENV=development
+      - NODE_ENV=${NODE_ENV}
       - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true
     networks:
