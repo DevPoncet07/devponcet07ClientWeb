@@ -16,8 +16,8 @@ export default function ButtonTheme() {
 
     return (
         <label className={styles.switch} >
-            <input type="checkbox" />
-            <span className={styles.slider} onClick={handleSetTheme}></span>
+            <input type="checkbox"  onClick={handleSetTheme} />
+            <span className={styles.slider}></span>
         </label>
     )
 }
