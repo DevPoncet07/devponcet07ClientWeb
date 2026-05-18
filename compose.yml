@@ -2,15 +2,21 @@
 services:
   devponcet07clientweb:
     build: 
-      context: devponcet07_client_web
+      context: ./devponcet07_client_web
+    working_dir: /app
     container_name: devponcet07ClientWeb
     restart: always
     environment:
       - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
     networks:
       - proxy-network
     expose:
       - "3000"
+    volumes:
+      - ./devponcet07_client_web:/app
+      - /app/node_modules
 
 networks:
   proxy-network:
