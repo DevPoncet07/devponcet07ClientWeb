@@ -6,6 +6,7 @@ export default function ButtonTheme() {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
+    console.log(isDark)
     document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light")
   }, [isDark])
 
