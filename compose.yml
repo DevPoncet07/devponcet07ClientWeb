@@ -2,7 +2,7 @@
 services:
   devponcet07clientweb:
     build: 
-      context: ./devponcet07_client_web
+      context: ./src
     working_dir: /app
     container_name: devponcet07ClientWeb
     restart: always

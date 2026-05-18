@@ -8,7 +8,6 @@ export default function ButtonTheme() {
     const [isDark, setIsDark] = useState(false);
 
     useEffect(() => {
-        // Set initial theme state on mount
         setIsDark(theme === "dark");
     }, [theme]);
 
