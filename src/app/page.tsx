@@ -7,7 +7,9 @@ import Main from "@/components/main/Main";
 export default function Home() {
   return (<App>
     <Header/>
-    <Main/>
+    <Main>
+      <p>home</p>
+    </Main>
     <Footer/>
     </App>
   )
