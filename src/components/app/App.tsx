@@ -1,8 +1,6 @@
 import styles from "./App.module.css";
 
-export default function App({
-  children,
-}: {
+export default function App({children}: {
   children: React.ReactNode;
 }) {
 

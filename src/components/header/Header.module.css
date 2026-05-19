@@ -1,6 +1,63 @@
 .header{
     display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--background);
+    position: relative;
+    z-index: 2;
+    height:80px;
+}
+
+.headerTop{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 2;
+    padding: 10px;
+}
+
+.headerH1{
+    align-content: center;
+    z-index: 2;
+}
+
+.buttonOpen{
+    border: none;
+    padding: 5px;
     background-color: var(--background);
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.headerNav{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color: var(--background);
+    z-index: 1;
+    position: absolute;
+    top:75px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.headerLink{
+    text-decoration: none;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.headerLink:hover , .buttonOpen:hover{
+    background-color: var(--background--hover);
+}
+
+.openMenuBurger{
+    transition: transform ease 0.5s;
+}
+.closeMenuBurger{
+    transform: translateY(-150px);
+    transition: transform ease 0.5s;
 }
