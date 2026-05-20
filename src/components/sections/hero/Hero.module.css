@@ -1,32 +1,30 @@
 .hero {
-    width: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .heroCarousel {
-    position: relative;
-    display: flex;
-    width: 100%;
-    overflow: hidden;
+  display: flex;
+  width: max-content;
+  animation: scrolling 10s linear infinite;
 }
 
 .heroCarouselSlide {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+  flex-shrink: 0;
 }
 
 .heroCarouselImage {
-
-    will-change: transform;
-    animation: scrolling 10s linear infinite;
+  display: block;
+  width: 500px;
+  height: auto;
 }
 
-
 @keyframes scrolling {
-    0% {
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(0);
+  }
 
-    100% {
-        transform: translateX(-400%);
-    }
+  to {
+    transform: translateX(-50%);
+  }
 }
