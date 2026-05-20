@@ -18,8 +18,8 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.heroCarousel}>
-        {slides.map((slide) => 
-          <div className={styles.heroCarouselSlide}>
+        {slides.map((slide,i) => 
+          <div className={styles.heroCarouselSlide} key={i}>
             <Image
               src={slide}
               width={500}
