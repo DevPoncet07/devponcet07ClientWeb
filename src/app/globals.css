@@ -44,6 +44,10 @@ table {
 }
 
 /* My css */
+@font-face {
+  font-family: "google sans code"; /* set name */
+  src: url("../public/static/font/GoogleSansCode-VariableFont_MONO\,wght.ttf"); /* url of the font */
+}
 
 :root {
   --background: #f0f0f0;
