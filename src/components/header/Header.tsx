@@ -26,10 +26,10 @@ export default function Header() {
             <button onClick={openMenuBurger} id="buttonOpen" className={styles.buttonOpen}>Menu</button>
         </header>
         <nav className={styles.headerNav + " " + styles.closeMenuBurger} id="menuBurger">
-            <Link className={styles.headerLink} href="/">Acceuil</Link>
-            <Link className={styles.headerLink} href="/realisations">Mes réalisations</Link>
-            <Link className={styles.headerLink} href="/competences">Mes compétences</Link>
-            <Link className={styles.headerLink} href="/apropos">À propos</Link>
+            <a className={styles.headerLink} href="/">Acceuil</a>
+            <a className={styles.headerLink} href="/realisations">Mes réalisations</a>
+            <a className={styles.headerLink} href="/competences">Mes compétences</a>
+            <a className={styles.headerLink} href="/apropos">À propos</a>
         </nav>
         
     </>

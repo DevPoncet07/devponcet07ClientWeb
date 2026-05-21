@@ -10,12 +10,12 @@ export default function Section(
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.intersectionRatio > 0.9) {
+                if (entry.intersectionRatio > 0.5) {
                     console.log(id, "visible")
                     entry.target.children[0].classList.add(styles.sectionAnim)
                 }
             })
-        }, { threshold: 0.9})
+        }, { threshold: 0.5})
         const section = document.getElementById(id) as HTMLElement
         observer.observe(section);
 
