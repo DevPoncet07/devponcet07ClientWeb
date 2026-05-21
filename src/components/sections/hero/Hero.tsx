@@ -17,14 +17,14 @@ const slides = [
 const allText = [
     "> Initialisation du site...",
     "> Chargement des projets...",
-    "Bienvenue sur mon site",
-    "Chargement des compétences... ████████ 100%",
-    "Développeur frontend & fullstack",
-    "Concepteur d’expériences web modernes",
-    "Je donne vie aux idées en ligne",
-    "Site responsive… même à 2h du matin",
-    "Pensé pour l’utilisateur. Construit pour durer.",
-    "Minimalisme, fluidité, performance",
+    "> Bienvenue sur mon site",
+    "> Chargement des compétences... ████████ 100%",
+    "> Développeur frontend & fullstack",
+    "> Concepteur d’expériences web modernes",
+    "> Je donne vie aux idées en ligne",
+    "> Site responsive… même à 2h du matin",
+    "> Pensé pour l’utilisateur. Construit pour durer.",
+    "> Minimalisme, fluidité, performance",
 ]
 
 let indexText = 0

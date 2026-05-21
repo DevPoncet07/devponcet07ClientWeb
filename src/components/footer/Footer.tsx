@@ -11,7 +11,7 @@ export default function Footer() {
                     height={100}
                     alt=""
                     loading="eager"
-                    className={styles.heroCarouselImage}
+                    className={styles.avatar}
                 />
 
                 <div className={styles.footerBrand}>
@@ -34,11 +34,9 @@ export default function Footer() {
 
                 <div className={styles.footerLinks}>
                     <h3 className={styles.footerLinksH3}>Réseaux</h3>
-                    <div className={styles.socialIcons} >
                         <a className={styles.footerLinksA} href="https://github.com/DevPoncet07" target="_blank">GitHub</a>
                         <a className={styles.footerLinksA} href="https://www.linkedin.com/in/adrien-poncet/" target="_blank">LinkedIn</a>
                         <a className={styles.footerLinksA} href="https://leetcode.com/u/devponcet07/" target="_blank">Leetcode</a>
-                    </div>
                 </div>
 
             </div>

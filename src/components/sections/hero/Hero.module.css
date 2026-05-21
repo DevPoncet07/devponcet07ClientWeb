@@ -1,6 +1,7 @@
 .hero {
     width: 100%;
     overflow: hidden;
+    background: var(--background--header);
 }
 
 .heroText{
@@ -33,7 +34,8 @@
     display: flex;
     width: max-content;
     animation: scrolling 30s linear infinite;
-    gap: 10px
+    gap: 10px;
+    background: var(--background--header);
 }
 
 .heroCarouselSlide {
@@ -51,7 +53,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    box-shadow: 10px 10px 5px var(--background) inset, -10px -10px 5px var(--background) inset;
+    box-shadow: 10px 10px 5px var(--background--header) inset, -10px -10px 5px var(--background) inset;
 }
 
 @keyframes scrolling {
