@@ -4,7 +4,7 @@
     justify-content: space-between;
     background: var(--background);
     position: relative;
-    z-index: 2;
+    z-index: 3;
     height:80px;
     font-family: "google sans code";
     }
@@ -19,9 +19,15 @@
 
 .headerH1{
     align-content: center;
-    z-index: 2;
+    z-index: 3;
     font-size: x-large;
     font-weight: bolder;
+
+}
+.headerH1 a{
+
+    color:var(--text);
+    text-decoration: none;
 }
 
 .buttonOpen{
@@ -32,7 +38,10 @@
     box-sizing: border-box;
     font-family: "google sans code";
     font-size: 100%;
-
+    font-weight: 900;
+    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    box-shadow: 0px 5px 10px black;
 }
 
 .headerNav{
@@ -40,17 +49,21 @@
     flex-direction: column;
     align-items:  center;
     background-color: var(--background);
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     top:75px;
+    padding-top: 10px;
     width: 100%;
     box-sizing: border-box;
+    font-weight: 900;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0px 10px 15px black;
     
 }
 
 .headerLink{
     text-decoration: none;
-    padding: 4px;
+    padding: 5px;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -65,6 +78,6 @@
     transition: transform ease 0.5s;
 }
 .closeMenuBurger{
-    transform: translateY(-150px);
+    transform: translateY(-130px);
     transition: transform ease 0.5s;
 }

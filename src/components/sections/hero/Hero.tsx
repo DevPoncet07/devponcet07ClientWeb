@@ -17,7 +17,7 @@ const slides = [
 const allText = [
     "> Initialisation du site...",
     "> Chargement des projets...",
-    "Bienvenue sur mon portfolio",
+    "Bienvenue sur mon site",
     "Chargement des compétences... ████████ 100%",
     "Développeur frontend & fullstack",
     "Concepteur d’expériences web modernes",
@@ -37,7 +37,7 @@ export default function Hero() {
             setTextVisible(text.slice(0, i))
             await new Promise(r => setTimeout(r, 50));
         }
-        await new Promise(r => setTimeout(r, 3000));
+        await new Promise(r => setTimeout(r, 2000));
         if (indexText == allText.length - 1) {
             indexText = 0
         } else {

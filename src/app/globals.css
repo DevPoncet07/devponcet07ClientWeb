@@ -44,31 +44,28 @@ table {
 }
 
 /* My css */
+
 @font-face {
-  font-family: "google sans code"; /* set name */
-  src: url("../public/static/font/GoogleSansCode-VariableFont_MONO\,wght.ttf"); /* url of the font */
+  font-family: "google sans code";
+  src: url("../public/font/GoogleSansCode-VariableFont_MONO\,wght.ttf");
 }
 
 :root {
   --background: #f0f0f0;
   --background--hover: #b4b4b4;
-  --background-gradient: linear-gradient(135deg, #6D28D9 0%, #0891B2 100%);
-  --surface: #FFFFFF;
-  --border: #E5E7EB;
+  --border:rgb(44, 44, 44);
   --text: #111827;
-  --muted: #6B7280;
-  --primary: #6D28D9;
-  --secondary: #0891B2;
+  --text--hover: #aaaaaa;
+
 }
 
 .dark {
-  --background: #0A0A0F;
-  --surface: #111827;
-  --border: #1F2937;
+  --background: #353535;
+  --background--hover: #797979;
+  --border:rgb(255, 255, 255);
   --text: #F9FAFB;
-  --muted: #9CA3AF;
-  --primary: #7C3AED;
-  --secondary: #06B6D4;
+  --text--hover: #000000;
+
 }
 
 html{

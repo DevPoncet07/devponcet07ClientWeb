@@ -1,9 +1,18 @@
 import styles from "./Footer.module.css";
+import Image from "next/image";
 export default function Footer() {
 
     return (
         <footer className={styles.footer}>
             <div className={styles.footerContainer}>
+                <Image
+                    src="/static/footer/photo_face.png"
+                    width={100}
+                    height={100}
+                    alt=""
+                    loading="eager"
+                    className={styles.heroCarouselImage}
+                />
 
                 <div className={styles.footerBrand}>
                     <h2 className={styles.footerBrandH2}>DevPoncet</h2>
@@ -16,20 +25,19 @@ export default function Footer() {
 
                 <div className={styles.footerLinks}>
                     <h3 className={styles.footerLinksH3}>Navigation</h3>
-                    <ul>
-                        <li><a className={styles.footerLinksA} href="about">À propos</a></li>
-                        <li><a className={styles.footerLinksA} href="projects">Projets</a></li>
-                        <li><a className={styles.footerLinksA} href="skills">Compétences</a></li>
-                        <li><a className={styles.footerLinksA} href="contact">Contact</a></li>
-                    </ul>
+                        <a className={styles.footerLinksA} href="/">Acceuil</a>
+                        <a className={styles.footerLinksA} href="realisations">Réalisations</a>
+                        <a className={styles.footerLinksA} href="competences">Compétences</a>
+                        <a className={styles.footerLinksA} href="/apropos">À propos</a>
+                        <a className={styles.footerLinksA} href="contact">Contact</a>
                 </div>
 
                 <div className={styles.footerLinks}>
                     <h3 className={styles.footerLinksH3}>Réseaux</h3>
-                    <div  className={styles.socialIcons} >
-                        <a className={styles.footerLinksA} href="https://github.com/" target="_blank">GitHub</a>
-                        <a className={styles.footerLinksA} href="https://linkedin.com/" target="_blank">LinkedIn</a>
-                        <a className={styles.footerLinksA} href="mailto:contact@devponcet07.fr">Email</a>
+                    <div className={styles.socialIcons} >
+                        <a className={styles.footerLinksA} href="https://github.com/DevPoncet07" target="_blank">GitHub</a>
+                        <a className={styles.footerLinksA} href="https://www.linkedin.com/in/adrien-poncet/" target="_blank">LinkedIn</a>
+                        <a className={styles.footerLinksA} href="https://leetcode.com/u/devponcet07/" target="_blank">Leetcode</a>
                     </div>
                 </div>
 

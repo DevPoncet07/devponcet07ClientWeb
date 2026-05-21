@@ -20,7 +20,7 @@ export default function Header() {
     return (<>
         <header className={styles.header}>
             <div className={styles.headerTop}>
-                <h1 className={styles.headerH1}>DevPoncet07</h1>
+                <h1 className={styles.headerH1}><a href="/">DevPoncet07</a></h1>
                 <ButtonTheme />
             </div>
             <button onClick={openMenuBurger} id="buttonOpen" className={styles.buttonOpen}>Menu</button>
@@ -29,6 +29,7 @@ export default function Header() {
             <Link className={styles.headerLink} href="/">Acceuil</Link>
             <Link className={styles.headerLink} href="/realisations">Mes réalisations</Link>
             <Link className={styles.headerLink} href="/competences">Mes compétences</Link>
+            <Link className={styles.headerLink} href="/apropos">À propos</Link>
         </nav>
         
     </>
