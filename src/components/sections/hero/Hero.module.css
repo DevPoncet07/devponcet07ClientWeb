@@ -1,13 +1,38 @@
 .hero {
     width: 100%;
     overflow: hidden;
+}
 
+.heroText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "google sans code";
+    font-size: 2rem;
+    padding: 2rem;
+    height:200px
+}
+
+.cursor{
+    border-right: 2px solid var(--text);
+    animation: cursorAnim 0.7s linear infinite;
+}
+@keyframes cursorAnim {
+    0%{
+        border-right: 2px solid var(--text);
+    }
+    50%{
+        border-right:2px solid var(--background);
+    }
+    100%{
+        border-right: 2px solid var(--text);
+    }
 }
 
 .heroCarousel {
     display: flex;
     width: max-content;
-    animation: scrolling 20s linear infinite;
+    animation: scrolling 30s linear infinite;
     gap: 10px
 }
 
