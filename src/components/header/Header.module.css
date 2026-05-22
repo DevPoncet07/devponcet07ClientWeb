@@ -43,6 +43,7 @@
     cursor:pointer;
     font-family:"google sans code";
     font-weight:700;
+    font-size:1rem;
     transition:background 0.2s ease,transform 0.2s ease;
 }
 
@@ -67,10 +68,12 @@
 
 .headerLink{
     text-decoration:none;
+    font-family:"google sans code";
     color:var(--text);
     padding:14px;
     border-radius:12px;
     font-weight:700;
+    font-size:1rem;
     transition:background 0.2s ease,transform 0.2s ease,color 0.2s ease;
 }
 

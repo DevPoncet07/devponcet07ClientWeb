@@ -71,7 +71,7 @@
 }
 
 .footerLinksA:hover{
-    color:white;
+    color:var(--text--hover);
     transform:translateX(4px);
 }
 

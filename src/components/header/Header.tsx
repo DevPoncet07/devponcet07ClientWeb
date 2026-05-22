@@ -1,7 +1,6 @@
 'use client'
 import styles from "./Header.module.css"
 import ButtonTheme from "./ButtonTheme/ButtonTheme"
-import Link from "next/link"
 
 export default function Header() {
 
@@ -30,6 +29,7 @@ export default function Header() {
             <a className={styles.headerLink} href="/realisations">Mes réalisations</a>
             <a className={styles.headerLink} href="/competences">Mes compétences</a>
             <a className={styles.headerLink} href="/apropos">À propos</a>
+            <a className={styles.headerLink} href="/contact">Contact</a>
         </nav>
         
     </>
