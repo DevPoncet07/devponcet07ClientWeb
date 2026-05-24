@@ -31,6 +31,10 @@
     margin-bottom:12px;
 }
 
+.green{
+    color:var(--green)
+}
+
 .footerBrandP{
     line-height:1.7;
     color:var(--text);
@@ -57,7 +61,7 @@
     display:block;
     width:30px;
     height:2px;
-    background:linear-gradient(90deg,#8b5cf6,#6366f1);
+    background:var(--green);
     margin-top:6px;
     border-radius:999px;
 }

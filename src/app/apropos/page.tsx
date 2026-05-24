@@ -35,6 +35,7 @@ export default function Home() {
 <Section
   id="about-2"
   title="Du code à la création de projets"
+  isLast={true}
 >
   <p>
     Au fil du temps, cette passion est devenue une véritable orientation

@@ -19,7 +19,7 @@ export default function Header() {
     return (<>
         <header className={styles.header}>
             <div className={styles.headerTop}>
-                <h1 className={styles.headerH1}><a href="/">DevPoncet07</a></h1>
+                <h1 className={styles.headerH1}><a href="/">DevPoncet<span className={styles.green}>07</span></a></h1>
                 <ButtonTheme />
             </div>
             <button onClick={openMenuBurger} id="buttonOpen" className={styles.buttonOpen}>Menu</button>

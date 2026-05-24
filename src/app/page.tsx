@@ -40,6 +40,7 @@ export default function Home() {
 <Section
   id="home-2"
   title="Ma manière de développer"
+  isLast={true}
 >
   <p>
     J’accorde une attention particulière à la qualité du code, à la structure

@@ -1,12 +1,15 @@
 .header{
     z-index:3;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: space-between;
     background:var(--background--header);
     backdrop-filter:blur(12px);
     border-bottom: 1px solid var(--border);
     font-family:"google sans code";
+    width: 100%;
+    padding:10px;
+    box-sizing:border-box;
 }
 
 .headerTop{
@@ -15,7 +18,8 @@
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
-    padding:12px 16px;
+    padding:12px 8px;
+    width: 100%;
 }
 
 .headerH1{
@@ -28,6 +32,10 @@
     text-decoration:none;
     color:var(--text);
     transition:opacity 0.2s ease;
+}
+
+.green{
+    color:var(--green);
 }
 
 .headerH1 a:hover{
@@ -45,6 +53,8 @@
     font-weight:700;
     font-size:1rem;
     transition:background 0.2s ease,transform 0.2s ease;
+    min-width: 70px;
+    box-sizing: border-box;
 }
 
 .buttonOpen:hover{
@@ -53,7 +63,7 @@
 
 .headerNav{
     position: absolute;
-    top:90px;
+    top:70px;
     width:100%;
     display:flex;
     flex-direction:column;
@@ -92,7 +102,7 @@
 
 .closeMenuBurger{
     opacity:0;
-    transform:translateY(-110%);
+    transform:translateY(-100%);
     pointer-events:none;
     transition:all 0.35s ease;
 }

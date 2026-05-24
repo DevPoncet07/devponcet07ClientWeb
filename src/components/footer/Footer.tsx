@@ -15,7 +15,7 @@ export default function Footer() {
                 />
 
                 <div className={styles.footerBrand}>
-                    <h2 className={styles.footerBrandH2}>DevPoncet</h2>
+                    <h2 className={styles.footerBrandH2}>DevPoncet<span className={styles.green}>07</span></h2>
                     <p className={styles.footerBrandP}>
                         Développeur web passionné par la création
                         d’expériences modernes, performantes et responsives.
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
 
             <div className={styles.footerBottom}>
-                <p>© 2026 DevPoncet — Tous droits réservés.</p>
+                <p>© 2026 DevPoncet07 — Tous droits réservés.</p>
             </div>
         </footer>
     )

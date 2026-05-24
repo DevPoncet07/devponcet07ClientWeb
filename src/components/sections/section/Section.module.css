@@ -12,6 +12,19 @@
     
 }
 
+.section::after{
+    content:"";
+    display:block;
+    width:50%;
+    height:1px;
+    background:var(--green);
+    margin-top:6px;
+
+}
+.isLast::after{
+    background:none;
+}
+
 .sectionAnim{
     opacity:1;
     transform:translateY(0);

@@ -53,7 +53,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    box-shadow: 10px 10px 5px var(--background--header) inset, -10px -10px 5px var(--background) inset;
+    box-shadow: 10px 10px 20px var(--background--header) inset, -10px -10px 20px var(--background) inset;
 }
 
 @keyframes scrolling {

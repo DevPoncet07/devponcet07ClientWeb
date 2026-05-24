@@ -33,6 +33,7 @@ export default function Home() {
       <Section
         id="contact-2"
         title="Collaboration & projets"
+        isLast={true}
       >
         <p>
           Je recherche des projets stimulants me permettant de mettre en pratique

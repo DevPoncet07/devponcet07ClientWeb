@@ -43,6 +43,7 @@ export default function Home() {
 <Section
   id="skills-2"
   title="Ma manière de travailler"
+  isLast={true}
 >
   <p>
     J’accorde une grande importance à la qualité du code, à l’organisation des
