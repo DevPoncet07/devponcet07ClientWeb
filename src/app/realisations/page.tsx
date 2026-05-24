@@ -1,4 +1,5 @@
 import App from "@/components/app/App";
+import CardProject from "@/components/cards/CardProject/CardProject";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Main from "@/components/main/Main";
@@ -10,7 +11,9 @@ export default function Home() {
     <Header/>
     <Main>
       <Section id="realisation-1" title="Application web full stack">
-        <a href="https://skillfusion.devponcet07.fr">Skillfusion</a>
+        <CardProject title="Skillfusion" url='https://skillfusion.devponcet07.fr'>
+          <p>skillfusion est une platforme de partage de tutoriel manuel</p>
+        </CardProject>
       </Section>
 
       <Section id="realisation-2" title="Application bureau python">
