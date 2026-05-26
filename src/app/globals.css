@@ -53,7 +53,7 @@ table {
 :root {
   --background--header: #f0f0f0;
   --background: #f0f0f0;
-  --background--hover: #b4b4b4;
+  --background--hover: #dadada;
   --border:rgb(44, 44, 44);
   --text: #111827;
   --text--hover:  rgb(0, 133, 33);
@@ -64,7 +64,7 @@ table {
 .dark {
   --background--header: #000;
   --background: #000;;
-  --background--hover: #797979;
+  --background--hover: #272727;
   --border:rgba(224, 224, 224, 0.534);
   --text: #dfdfdf;
   --text--hover: rgb(0, 133, 33);

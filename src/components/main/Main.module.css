@@ -1,7 +1,7 @@
 .main{
     flex-grow: 1;
     background: var(--background);
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid var(--green);
     z-index: 1;
     overflow: hidden;
 }
