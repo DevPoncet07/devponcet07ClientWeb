@@ -18,7 +18,7 @@ export default function Home() {
         url='https://skillfusion.devponcet07.fr'
         img="/static/imageProject/screenSkillfusion.png"
         tags={["Svelte-kit","Express","Postgres",'typescript']}>
-          <p>skillfusion est une platforme de partage de tutoriel manuel</p>
+          <p>skillfusion est une plateforme de partage de tutoriel manuel</p>
         </CardProject>
       </SectionProject>
 

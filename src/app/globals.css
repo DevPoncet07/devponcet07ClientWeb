@@ -74,9 +74,19 @@ table {
 
 html{
 	min-height: 100%;
+  font-family: "google sans code";
+  word-spacing: -2px;
+  letter-spacing: 0px;
+  line-height: 1em;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
+}
+
+h3{
+  font-family: "google sans code";
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }

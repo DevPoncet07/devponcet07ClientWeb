@@ -18,6 +18,7 @@
     width:50%;
     height:1px;
     background:var(--green);
+    margin: auto;
     margin-top:6px;
 
 }

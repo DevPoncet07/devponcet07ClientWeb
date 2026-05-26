@@ -1,0 +1,20 @@
+.divOtherRealisation{
+   
+    margin: auto;
+     margin-top: 50px;
+}
+
+.divOtherRealisation:hover .otherRealisation{
+    transform: translateY(-3px);
+    color:var(--green);
+}
+.otherRealisation{
+    text-decoration: none;
+    border: 1px solid var(--green) ;
+    border-radius: 10px;
+    padding:10px;
+    color:var(--text);
+    display: inline-block; 
+    transition: transform 0.2s ease;
+}
+

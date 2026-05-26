@@ -8,6 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" suppressHydrationWarning>
+      <link rel="icon" href="/static/favicon.png" />
+
       <body>
         <Providers>{children}</Providers>
       </body>
