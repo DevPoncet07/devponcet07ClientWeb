@@ -37,10 +37,6 @@ export default function Home() {
           d’un déploiement sur serveur ou d’un accompagnement technique.
         </p>
 
-        <p>
-          Vous pouvez me contacter via le formulaire de contact du site ou directement
-          par email. Je répondrai dans les meilleurs délais afin de discuter de votre projet.
-        </p>
       </Section>
 
       <Section
