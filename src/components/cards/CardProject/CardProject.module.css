@@ -42,6 +42,7 @@
 
 .image{
     object-fit: cover;
+    background-color: white;
 
     transition: transform .5s ease;
 }
