@@ -12,7 +12,8 @@
     font-family: "google sans code";
     font-size: 2rem;
     padding: 2rem;
-    height: 200px
+    height: 200px;
+    line-height: 2rem;
 }
 
 .cursor {
