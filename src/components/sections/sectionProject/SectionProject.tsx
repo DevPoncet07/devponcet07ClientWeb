@@ -1,8 +1,8 @@
 'use client'
 import { useEffect } from "react"
-import styles from "./Section.module.css"
+import styles from "./SectionProject.module.css"
 
-export default function Section(
+export default function SectionProject(
     { children, id, title, isLast = false }: { children: React.ReactNode | null, id: string, title: string, isLast?: boolean }) {
 
 

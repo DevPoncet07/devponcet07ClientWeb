@@ -15,16 +15,16 @@ const slides = [
 ];
 
 const allText = [
-    "> Initialisation du site...",
-    "> Chargement des projets...",
-    "> Bienvenue sur mon site",
-    "> Chargement des compétences... ████████ 100%",
-    "> Développeur frontend & fullstack",
-    "> Concepteur d’expériences web modernes",
-    "> Je donne vie aux idées en ligne",
-    "> Site responsive… même à 2h du matin",
-    "> Pensé pour l’utilisateur. Construit pour durer.",
-    "> Minimalisme, fluidité, performance",
+    "Initialisation du site...",
+    "Chargement des projets...",
+    "Bienvenue sur mon site",
+    "Chargement des compétences... ████████ 100%",
+    "Développeur frontend & fullstack",
+    "Concepteur d’expériences web modernes",
+    "Je donne vie aux idées en ligne",
+    "Site responsive… même à 2h du matin",
+    "Pensé pour l’utilisateur. Construit pour durer.",
+    "Minimalisme, fluidité, performance",
 ]
 
 let indexText = 0
@@ -55,7 +55,7 @@ export default function Hero() {
     return (
         <section className={styles.hero}>
             <div className={styles.heroText}>
-                <p>{textVsible}<span className={styles.cursor}></span></p>
+                <p><span className={styles.green}>{"> "}</span>{textVsible}<span className={styles.cursor}></span></p>
 
             </div>
             <div className={styles.heroCarousel}>

@@ -11,6 +11,19 @@ export default function Home() {
     <Main>
       <Section
         id="contact-1"
+        title="Contact"
+      >
+        <p>
+          telephone : 06 37 72 17 07
+        </p>
+
+        <p>
+          Mail: devponcet07@gmail.com
+        </p>
+      </Section>
+
+      <Section
+        id="contact-2"
         title="Me contacter"
       >
         <p>
@@ -31,7 +44,7 @@ export default function Home() {
       </Section>
 
       <Section
-        id="contact-2"
+        id="contact-3"
         title="Collaboration & projets"
         isLast={true}
       >

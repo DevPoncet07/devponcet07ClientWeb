@@ -4,14 +4,15 @@ import CardProject from "@/components/cards/CardProject/CardProject";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Main from "@/components/main/Main";
-import Section from "@/components/sections/section/Section";
+import SectionProject from "@/components/sections/sectionProject/SectionProject";
+
 
 
 export default function Home() {
   return (<App>
     <Header />
     <Main>
-      <Section id="realisation-1" title="Application web full stack">
+      <SectionProject id="realisation-1" title="Application web full stack">
         <CardProject 
         title="Skillfusion" 
         url='https://skillfusion.devponcet07.fr'
@@ -19,9 +20,9 @@ export default function Home() {
         tags={["Svelte-kit","Express","Postgres",'typescript']}>
           <p>skillfusion est une platforme de partage de tutoriel manuel</p>
         </CardProject>
-      </Section>
+      </SectionProject>
 
-      <Section id="realisation-2" title="Application bureau python">
+      <SectionProject id="realisation-2" title="Application bureau python">
 
         <CardProject
           title="Jeu d'echec en python"
@@ -46,14 +47,14 @@ export default function Home() {
         tags={["Python3","PILimage"]}>
           <p>visualisateur de la farctal de mandelbrot codé en python</p>
         </CardProject>
-      </Section>
+      </SectionProject>
 
-      <Section id="realisation-3" title="Ce site web" isLast={true}>
+      <SectionProject id="realisation-3" title="Ce site web" isLast={true}>
         <CardProject title="Ce site web" url='https://devponcet07.fr'
         tags={["Nextjs",'typescript']}>
           <p>Site developper avec nextjs </p>
         </CardProject>
-      </Section>
+      </SectionProject>
     </Main>
     <Footer />
   </App>

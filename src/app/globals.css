@@ -56,7 +56,8 @@ table {
   --background--hover: #b4b4b4;
   --border:rgb(44, 44, 44);
   --text: #111827;
-  --text--hover: #818181;
+  --text--hover:  rgb(0, 133, 33);
+  --green:rgb(0, 133, 33);
 
 }
 

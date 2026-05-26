@@ -1,7 +1,8 @@
 .hero {
-    width: 100%;
+    width: 800px;
     overflow: hidden;
     background: var(--background--header);
+    margin: 0 auto;
 }
 
 .heroText{
@@ -17,6 +18,10 @@
 .cursor{
     border-right: 2px solid var(--text);
     animation: cursorAnim 0.7s linear infinite;
+}
+
+.green{
+    color:var(--green)
 }
 @keyframes cursorAnim {
     0%{

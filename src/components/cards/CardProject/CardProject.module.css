@@ -80,11 +80,6 @@
     font-size:.8rem;
 }
 
-
-
-
-
-
 .article{
     border: 1px solid var(--border);
     display: flex;
@@ -112,3 +107,8 @@
     margin: auto;
 }
 
+@media (min-width:768px){
+    .card{
+        width: 340px ;
+    }
+}
