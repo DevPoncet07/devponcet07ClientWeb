@@ -74,13 +74,13 @@ export default function Home() {
         isLast={true}
 
       >
-        <CardProject
-          title="Skillfusion"
-          url='https://skillfusion.devponcet07.fr'
-          img="/static/imageProject/screenSkillfusion.png"
-          tags={["Svelte-kit", "Express", "Postgres", 'typescript']}>
-          <p>skillfusion est une plateforme de partage de tutoriel manuel</p>
-        </CardProject>
+        <CardProject 
+                title="CBD shop" 
+                url='https://cbd-nature.devponcet07.fr'
+                img="/static/imageProject/screenCBDshop.png"
+                tags={["Svelte-kit","Postgres",'typescript']}>
+                  <p>CBD shop est un site marchand de CBD en cours de construction</p>
+                </CardProject>
         <div className={styles.divOtherRealisation}>
           <a className={styles.otherRealisation} href="/realisations">Découvrir mes autres réalisations</a>
         </div>

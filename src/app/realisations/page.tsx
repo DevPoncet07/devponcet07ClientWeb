@@ -15,7 +15,7 @@ export default function Home() {
       <SectionProject id="realisation-1" title="Application web full stack">
         <CardProject 
         title="CBD shop" 
-        url='https://cbd-marchand-front-web.vercel.app/'
+        url='https://cbd-nature.devponcet07.fr'
         img="/static/imageProject/screenCBDshop.png"
         tags={["Svelte-kit","Postgres",'typescript']}>
           <p>CBD shop est un site marchand de CBD en cours de construction</p>
