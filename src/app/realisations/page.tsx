@@ -13,7 +13,13 @@ export default function Home() {
     <Header />
     <Main>
       <SectionProject id="realisation-1" title="Application web full stack">
-
+        <CardProject 
+        title="Vtc courchevel saint tropez" 
+        url='https://vtc-courchevel-saint-tropez.devponcet07.fr'
+        img="/static/imageProject/screenVtc.png"
+        tags={["Svelte-kit","Express","Postgres",'typescript']}>
+          <p>Vtc courchevel saint tropez est un app de reservation de transfer a courchevele en hiver et saint tropez en été</p>
+        </CardProject>
         <CardProject 
         title="Skillfusion" 
         url='https://skillfusion.devponcet07.fr'
@@ -21,6 +27,7 @@ export default function Home() {
         tags={["Svelte-kit","Express","Postgres",'typescript']}>
           <p>skillfusion est une plateforme de partage de tutoriel manuel</p>
         </CardProject>
+        
       </SectionProject>
 
       <SectionProject id="realisation-2" title="Application bureau python">
