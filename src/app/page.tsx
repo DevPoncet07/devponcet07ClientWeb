@@ -75,11 +75,11 @@ export default function Home() {
 
       >
         <CardProject 
-                title="CBD shop" 
-                url='https://cbd-nature.devponcet07.fr'
-                img="/static/imageProject/screenCBDshop.png"
-                tags={["Svelte-kit","Postgres",'typescript']}>
-                  <p>CBD shop est un site marchand de CBD en cours de construction</p>
+                title="" 
+                url=''
+                img=""
+                tags={["Svelte-kit","Postgres","express",'typescript']}>
+                  <p></p>
                 </CardProject>
         <div className={styles.divOtherRealisation}>
           <a className={styles.otherRealisation} href="/realisations">Découvrir mes autres réalisations</a>
