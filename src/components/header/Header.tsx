@@ -25,7 +25,7 @@ export default function Header() {
             </div>
                 <button onClick={openMenuBurger} id="buttonOpen" className={styles.buttonOpen}>Menu</button>
             <nav className={styles.headerNav + " " + styles.closeMenuBurger} id="menuBurger">
-                <a className={styles.headerLink} href="/">Acceuil</a>
+                <a className={styles.headerLink} href="/">Accueil</a>
                 <a className={styles.headerLink} href="/realisations">Mes réalisations</a>
                 <a className={styles.headerLink} href="/competences">Mes compétences</a>
                 <a className={styles.headerLink} href="/apropos">À propos</a>
