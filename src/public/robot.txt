@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devponcet07.fr/sitemap.xml
