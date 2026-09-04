@@ -3,7 +3,7 @@ import styles from "./CardProject.module.css"
 import { useRouter } from "next/navigation"
 import Image from "next/image";
 
-export default function CardProject({ children, title, url, img,tags}: { children: React.ReactNode, title: string, url: string, img?: string,tags?:string[]}) {
+export default function CardProject({ children, title, url, img,tags,inProgress}: { children: React.ReactNode, title: string, url: string, img?: string,tags?:string[],inProgress:boolean}) {
 
     const router = useRouter()
 
@@ -27,6 +27,9 @@ export default function CardProject({ children, title, url, img,tags}: { childre
             }
             <div className={styles.content}>
                 <h3>{title}</h3>
+                <div className={styles.tags}>
+                    <span>{inProgress?"En construction":"Terminer"}</span>
+                </div>
 
                 {children}
 

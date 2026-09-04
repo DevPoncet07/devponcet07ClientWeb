@@ -25,7 +25,7 @@ export default function Footer() {
 
                 <div className={styles.footerLinks}>
                     <h3 className={styles.footerLinksH3}>Navigation</h3>
-                        <a className={styles.footerLinksA} href="/">Acceuil</a>
+                        <a className={styles.footerLinksA} href="/">Accueil</a>
                         <a className={styles.footerLinksA} href="realisations">Réalisations</a>
                         <a className={styles.footerLinksA} href="competences">Compétences</a>
                         <a className={styles.footerLinksA} href="/apropos">À propos</a>
