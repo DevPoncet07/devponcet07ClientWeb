@@ -119,6 +119,7 @@ export default function Home() {
           title="Vtc-couchevel-saint-tropez"
           url='https://vtc-courchevel-saint-tropez.devponcet07.fr'
           img="/static/imageProject/screenVtc.png"
+          inProgress={true}
           tags={["Svelte-kit", "Postgres", "express", 'typescript']}>
           <p></p>
         </CardProject>
